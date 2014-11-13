@@ -1,0 +1,104 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a:focus {
+    outline: 3px solid #000;
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    background-color: black;
+    color: white;
+    padding: 0.5em 0.75em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    top: 0;
+}
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
+
+.masthead {
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Lobster', 'Brush Script MT Italic' serif;
+}
+
+.nav {
+  padding: 0;
+}
+
+.nav li {
+  display: block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #933;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+  background-color: #952;
+
+  color: #fff;
+}
+
+
+@media only screen and (min-width: 25em) {
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+
+}
+    
+@media only screen and (min-width: 50em) {
+
+
+}
