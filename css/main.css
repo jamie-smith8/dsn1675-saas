@@ -48,43 +48,42 @@ a:focus {
     top: 0;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+header {
+    height: 20rem;
+    width:100%;
+    background-color: black;
 }
 
-.masthead {
-  overflow: hidden;
+h1 {
+    color: white;
+    font-family: helvetica neue, helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: right;
+    line-height: 1.3em;
+    padding-top: 3rem;
+    padding-right: 1rem;
+    letter-spacing: 2px;
 }
 
-.title {
-  text-align: center;
-  font-family: 'Lobster', 'Brush Script MT Italic' serif;
+img {
+    width: 100%;    
 }
 
-.nav {
-  padding: 0;
+.logo {
+    position: relative;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
 }
 
-.nav li {
-  display: block;
-}
-
-.nav a,
-.nav a:link,
-.nav a:visited {
-  display: block;
-
-  color: #933;
-  text-decoration: none;
-}
-
-.nav a:hover,
-.nav a:focus,
-.nav a:active {
-  background-color: #952;
-
-  color: #fff;
+button {
+    font-size: 20px;
+    background-color: white; 
+    margin-left: 1rem;
+    border-radius: 0px;
 }
 
 
