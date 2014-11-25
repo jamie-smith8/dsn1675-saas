@@ -22,10 +22,40 @@ html {
 body {
   margin: 0;
   padding: 0;
+  font-family: 'helvetica neue', 'helvetica', sans-serif;
 }
 
-a:focus {
-    outline: 3px solid #000;
+h2 {
+    text-align: center;
+}
+
+.nav {
+    list-style: none;
+    text-transform: uppercase;
+    color: white;
+    padding: .5rem;
+    
+}
+
+.nav li {
+    width: 8em;
+    display: inline;
+}
+
+.nav a {
+    display: block;
+    background-color: #000;
+    text-align: center;
+    margin-top: .5rem;
+    padding: .5rem;
+    color: white;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: medium;
 }
 
 .skip-links {
@@ -51,12 +81,13 @@ a:focus {
 header {
     height: 20rem;
     width:100%;
-    background-color: black;
+    background: url(http://placehold.it/900x600/000);
+    background-size: cover;
 }
 
 h1 {
     color: white;
-    font-family: helvetica neue, helvetica, sans-serif;
+    font-family: 'helvetica neue', 'helvetica', sans-serif;
     text-transform: uppercase;
     font-size: 1.5rem;
     text-align: right;
@@ -67,7 +98,7 @@ h1 {
 }
 
 img {
-    width: 100%;    
+    width: 100%; 
 }
 
 .logo {
@@ -79,13 +110,49 @@ img {
     padding-top: 1rem;
 }
 
-button {
-    font-size: 20px;
-    background-color: white; 
-    margin-left: 1rem;
-    border-radius: 0px;
+.copyright {
+    padding-top: 2rem;
+    color: white;
+    text-align: center;
+    margin: 0;
 }
 
+footer {
+    background-color: black;
+}
+
+.footnav {
+    font-size: .5rem;
+    padding: 0;
+}
+
+.footnav a {
+    padding: .2em;
+    margin: 0;
+}
+
+.button {
+    color: black;
+    background-color: white;
+    font-size: 20px; 
+    margin-left: 1rem;
+    border: none;
+    padding: .5em;
+    font-weight: bold;
+}
+
+.buttbutton {
+    color: white;
+    background-color: black;
+    font-size: 30px; 
+    margin: 0 6rem;
+    border: none;
+    font-weight: medium;
+    display: block;
+    padding: 0 .5em;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 @media only screen and (min-width: 25em) {
 
