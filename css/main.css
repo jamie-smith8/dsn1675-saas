@@ -25,8 +25,9 @@ body {
   font-family: 'helvetica neue', 'helvetica', sans-serif;
 }
 
-h2 {
+.h2 {
     text-align: center;
+    margin: 0;
 }
 
 .nav {
@@ -81,7 +82,7 @@ a:visited {
 header {
     height: 20rem;
     width:100%;
-    background: url(http://placehold.it/900x600/000);
+    background-image: url(../images/nebula.jpg);
     background-size: cover;
 }
 
@@ -121,15 +122,6 @@ footer {
     background-color: black;
 }
 
-.footnav {
-    font-size: .5rem;
-    padding: 0;
-}
-
-.footnav a {
-    padding: .2em;
-    margin: 0;
-}
 
 .button {
     color: black;
@@ -143,8 +135,7 @@ footer {
 
 .buttbutton {
     color: white;
-    background-color: black;
-    font-size: 30px; 
+    background-color: black; 
     margin: 0 6rem;
     border: none;
     font-weight: medium;
@@ -154,6 +145,49 @@ footer {
     text-transform: uppercase;
 }
 
+h3 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: .5em 0;
+}
+
+.info {
+
+}
+
+.startlink {
+    color: black;
+}
+
+.todaylink {
+    color: black;
+    background-color: white;
+    padding: 0 1.2rem;
+}
+
+
+textarea {
+    height: 18em;
+    width: 90%;
+}
+
+.begone {
+    display: none;
+}
+
+.tests {
+    margin:0;
+}
+
+.footnav {
+    color: white;
+    list-style: none;
+    text-align: center;
+    padding: .7rem;
+    
+}
+
+
 @media only screen and (min-width: 25em) {
 
 
@@ -161,7 +195,26 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
-
+.feature {
+    display: block;
+}
+    
+header {
+    height: 30rem;
+}
+    
+.begone {
+    display: block;
+}
+    
+.footnav {
+    display: inline-block;
+}
+  
+h1 {
+    font-size: 
+}
+    
 }
     
 @media only screen and (min-width: 50em) {
