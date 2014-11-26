@@ -80,9 +80,12 @@ a:visited {
 }
 
 header {
-    height: 20rem;
+    display: block;
+    height: 100%;
     width:100%;
+    background-color: black;
     background-image: url(../images/nebula.jpg);
+    background-position: center;
     background-size: cover;
 }
 
@@ -93,7 +96,6 @@ h1 {
     font-size: 1.5rem;
     text-align: right;
     line-height: 1.3em;
-    padding-top: 3rem;
     padding-right: 1rem;
     letter-spacing: 2px;
 }
@@ -109,6 +111,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 .copyright {
@@ -127,7 +130,6 @@ footer {
     color: black;
     background-color: white;
     font-size: 20px; 
-    margin-left: 1rem;
     border: none;
     padding: .5em;
     font-weight: bold;
@@ -212,8 +214,24 @@ header {
 }
   
 h1 {
-    font-size: 
+    font-size: 3em;
+    padding-top: 2.5em;
+    margin-right: .5em;
 }
+    
+.button {
+    margin-left: 1em;
+    font-size: 30px;
+
+}
+ 
+.logo {
+    float: left;
+    margin-left: 2em;
+    
+}
+
+    
     
 }
     
