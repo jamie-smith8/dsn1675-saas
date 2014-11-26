@@ -84,7 +84,7 @@ header {
     height: 100%;
     width:100%;
     background-color: black;
-    background-image: url(../images/nebula.jpg);
+    background-image: url(../);
     background-position: center;
     background-size: cover;
 }
@@ -101,7 +101,8 @@ h1 {
 }
 
 img {
-    width: 100%; 
+    width: 100%;
+    background-color: black;
 }
 
 .logo {
@@ -133,6 +134,7 @@ footer {
     border: none;
     padding: .5em;
     font-weight: bold;
+    margin-left: 1em;
 }
 
 .buttbutton {
@@ -197,9 +199,6 @@ textarea {
 
 @media only screen and (min-width: 38em) {
 
-.feature {
-    display: block;
-}
     
 header {
     height: 30rem;
@@ -209,7 +208,7 @@ header {
     display: block;
 }
     
-.footnav {
+.footnav li {
     display: inline-block;
 }
   
@@ -220,7 +219,7 @@ h1 {
 }
     
 .button {
-    margin-left: 1em;
+    margin-left: .5em;
     font-size: 30px;
 
 }
@@ -230,6 +229,7 @@ h1 {
     margin-left: 2em;
     
 }
+    
 
     
     
