@@ -117,7 +117,7 @@ img {
 
 .copyright {
     padding-top: 2rem;
-    color: white;
+    color: grey;
     text-align: center;
     margin: 0;
 }
@@ -136,6 +136,7 @@ footer {
     font-weight: bold;
     margin-left: 1em;
 }
+
 
 .buttbutton {
     color: white;
@@ -184,21 +185,53 @@ textarea {
 }
 
 .footnav {
-    color: white;
+    color: grey;
     list-style: none;
     text-align: center;
     padding: .7rem;
     
 }
 
+.nav-m li{
+    display: none;
+}
+
+.testemony {
+    text-transform: uppercase;
+}
+
+.testemony-p {
+    margin-bottom: 8px;
+}
+
 
 @media only screen and (min-width: 25em) {
 
+.nav {
+    margin-right: 5.5rem;
+    margin-left: 5.5rem;
+}
+    
 
 }
 
-@media only screen and (min-width: 38em) {
 
+
+@media only screen and (min-width: 38em) {
+    
+.copyright {
+    padding-top: 5rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+    
+footer {
+    height: 15rem;
+}
+
+.nav li {
+    display: none;
+}    
     
 header {
     height: 30rem;
@@ -214,7 +247,7 @@ header {
   
 h1 {
     font-size: 3em;
-    padding-top: 2.5em;
+    padding-top: .5em;
     margin-right: .5em;
 }
     
@@ -230,6 +263,22 @@ h1 {
     
 }
     
+.nav-m {
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 2.5rem;
+    padding-top: 3.2rem;
+}
+
+.nav-m a {
+    color: white;
+}
+
+.nav-m li {
+    display: inline;
+} 
 
     
     
@@ -237,5 +286,12 @@ h1 {
     
 @media only screen and (min-width: 50em) {
 
+.nav-m {
+    padding-top: 5rem;
+}
+ 
+h1 {
+    padding-top: 0;
+}
 
 }
