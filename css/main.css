@@ -158,6 +158,12 @@ footer {
     text-transform: uppercase;
 }
 
+.buttbutton:hover {
+    color: black;
+    background-color: white;
+    font-weight: bold;
+}
+
 h3 {
     text-transform: uppercase;
     margin: 0;
@@ -205,8 +211,16 @@ textarea {
     padding: .7rem;
 }
 
+.footnav a:hover {
+    opacity: .5;
+}
+
 .footnav a:visited {
     color: white;
+}
+
+.footnav a:visited:hover {
+    opacity: .5;
 }
 
 .nav-m li{
@@ -248,6 +262,7 @@ form {
     padding: 0 1.5em;
     margin: 0 auto;
     max-width: 30em;
+    padding-bottom: 8rem;
 }
 
 .colourback {
@@ -256,7 +271,6 @@ form {
 
 label {
     display: block; 
-    color: white;
 }
 
 input + label {
@@ -278,6 +292,11 @@ button {
     background-color: white; 
     margin-top: 0.5em;
     border: none;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
 }
 
 .levels {
@@ -311,13 +330,75 @@ button {
 .join-p {
     color: white;
     text-align: center;
-    padding: 0em 1em;
+}
+
+.form-titles {
+    text-align: center;
+    padding:0;
+    margin: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.basics {
+    background-color: white;
+    padding: .5em;
+    margin-bottom: 2rem;
+}
+
+.not-free {
+    background-color: white;
+    padding: .5em;
+    margin-borrom: 2rem;
+}
+
+.submit-button-free {
+    text-align: center;
+}
+
+.after {
+    margin-bottom: 2rem;
+}
+
+.after-bottom {
+    margin-bottom: 1rem;
+}
+
+.before {
+    margin-top: 1rem;
 }
 
 
 
+.feature {
+    opacity: .8;
+    color: #484848;
+}
 
+.feature:hover {
+    opacity: 1;
+    color: black;
+}
 
+.thanks {
+    padding: 2rem;
+    text-align: center;
+}
+
+.back-to {
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+
+.back-to:hover {
+    opacity: .5;
+}
+
+.back-to:visited {
+    color: grey;
+}
 
 
 @media only screen and (min-width: 25em) {
@@ -401,6 +482,13 @@ h1 {
 .nav-m li {
     display: inline;
 }     
+    
+.nav-m a:hover {
+    color: black;
+    opacity: .5;
+    font-weight: bold;
+}
+    
     
 }
     
