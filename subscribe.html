@@ -14,12 +14,12 @@
     <ul class="skip-links">
         <li><a href="#topnav">Skip to Top Navigation</a></li>
         <li><a href="#gonav">Skip to Giver a Go</a></li>
+        <li><a href="index.html">Skip home button</a></li>
         <li><a href="pricing.html">Skip to Prices</a></li>
         <li><a href="subscribe.html">Skip to Subscription</a></li>
         <li><a href="#tour">Skip to Tour</a></li>
         <li><a href="#testemony">Skip to Testemonies</a></li>
         <li><a href="#bottomnav">Skip to Bottom Navigation</a></li>
-    
     </ul>
      
 <header>
@@ -29,8 +29,8 @@
     
     <nav role="navigation" id="topnav">
          <ul class="nav-m milli">
-            <li class="gutter-1-2"><a class="" href="pricing.html" id="pricenav">Pricing</a></li>
-            <li class="gutter-1-2"><a class="" href="subscribe.html" id="subnav">Subscribe</a></li> 
+             <li class="gutter-1-2"><a class="" href="index.html" id="homenav">Home</a></li>
+             <li class="gutter-1-2"><a class="" href="pricing.html" id="pricenav">Pricing</a></li> 
             <li class="gutter-1-2"><a class="">Log In</a></li>     
         </ul>
     </nav>
@@ -44,15 +44,88 @@
 </header>
 
 <main>
+    
+    <nav role="navigation" id="topnav">
+        <ul class="nav giga">
+            <li><a class="sm-button" href="index.html" id="pricenav">Home</a></li>
+            <li><a class="sm-button" href="subscribe.html" id="subnav">Subscribe</a></li>
+            <li><a class="sm-button">Log In</a></li>
+        </ul>
+    </nav>
 
     
-    <form>
+  
     
     
     
+    <div class="colourback">
+            <h2 class="join">Woohoo! Subscribe Time!</h2>
+
+            <p class="join-p">You are about to become a part of a brilliant system. Don't worry, this form will only take about 2.234 min. </p>       
+
+          <!--
+        Some Input Types:
+        - search
+        - tel
+        - url
+        - number
+        - password
+        - color
+        - time
+        - date
+        - file
+        -->
+
+<form class="form" action="thanks.html" method="post"> 
     
-    
-    </form>   
+         <div>   
+            <label for="name">Name</label>
+            <input class="inputbox" id="name">
+        </div> 
+
+        <div>    
+            <label for="email">E-mail</label>
+            <input class="inputbox" type="email" id="email">
+        </div>
+
+        <div>
+            <label for="age">Age</label>
+            <input type="number" class="inputbox" id="age">
+        </div>
+
+        <div>
+
+            <p class="yourlevel"><em>Your level of awesomeness</em></p>
+
+            <span class="radio">
+                <input type="radio" id="meh" name="level-oflawesomeness">
+                <label class="levels" for="meh">Meh...</label>
+            </span>
+
+            <span class="radio">
+                <input type="radio" id="good" name="level-oflawesomeness">
+                <label class="levels" for="good">Pretty good.</label>
+            </span>
+
+            <span class="radio">
+                <input type="radio" id="super" name="level-oflawesomeness">
+                <label class="levels" for="super">Super!</label>
+            </span>    
+
+        </div>
+
+
+        <div>    
+            <label for="explain">Explain why you deserve to go:</label>
+            <textarea id="explain"></textarea>
+        </div>
+
+        <div class="submit-button">
+            <button type="submit">Sign Up</button>
+        </div>
+
+    </form>        
+</div>
 
     
     
