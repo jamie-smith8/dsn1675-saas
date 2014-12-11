@@ -20,14 +20,20 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: 'helvetica neue', 'helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'helvetica neue', 'helvetica', sans-serif;
+}
+
+
+.intro p {  
+    margin-bottom: 1%;
 }
 
 .h2 {
     text-align: center;
     margin: 0;
+    padding-top: 1rem;
 }
 
 .nav {
@@ -44,7 +50,7 @@ body {
 
 .nav a {
     display: block;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, .4);
     text-align: center;
     margin-top: .5rem;
     padding: .5rem;
@@ -98,6 +104,7 @@ h1 {
     line-height: 1.3em;
     padding-right: 1rem;
     letter-spacing: 2px;
+    padding-top: 4.5rem;
 }
 
 img {
@@ -111,7 +118,6 @@ img {
     position: relative;
     width: 20%;
     display: block;
-    margin-left: auto;
     margin-right: auto;
     padding-top: 1rem;
     margin-bottom: 2rem;
@@ -180,6 +186,10 @@ h3 {
     color: black;
 }
 
+.startlink:hover {
+    opacity: .5;
+}
+
 .todaylink {
     color: black;
     background-color: white;
@@ -238,7 +248,7 @@ textarea {
 }
 
 .sm-button:hover {
-    color: black;
+    color: rgba(0, 0, 0, .4);
     background-color: white;
     font-weight: normal;
 }
@@ -246,17 +256,24 @@ textarea {
 .price-list {
     list-style: disc;
     margin-bottom:0;
-    padding:0;
+    padding:0 .5em;
+    line-height: 200%;
     
 }
 
-.price {
-    margin-left:1em;
-    padding: 0;
+.price h3{
+    text-align: center;
+    text-decoration: underline;
 }
 
+.price {
+    padding: 0 1;
+    background-color: white;
+}
 
-
+.price-grid {
+    background-color: black;
+}
 
 
 
@@ -268,7 +285,7 @@ form {
 }
 
 .colourback {
-    background-color: black;
+    background-color: ;
 }
 
 label {
@@ -290,15 +307,20 @@ textarea {
 }
 
 button {
+    width: 8rem;
+    color: rgba(250, 250, 250, 1);
     font-size: 20px;
-    background-color: white; 
+    text-transform: uppercase;
     margin-top: 0.5em;
     border: none;
+    background-color: rgba(250, 0, 0, .5);
+
 }
 
 button:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: rgba(250, 0, 0, .5);
+    font-weight: bold;
 }
 
 .levels {
@@ -309,6 +331,7 @@ button:hover {
 .yourlevel {
    padding-top: 0.5em;
     margin: 0;
+    color: rgba(0, 0, 0, .6);
 }
 
 .radio {
@@ -321,25 +344,28 @@ button:hover {
 }
 
 .join {
-    color: white;
     text-align: center;
     padding: 0em 1em;
     margin: 0;
     padding-top: 1rem;
-    font-weight: normal;
+    letter-spacing: 2px;
 }
 
 .join-p {
-    color: white;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .form-titles {
+    color: rgba(0, 0, 0, .6);
     text-align: center;
     padding:0;
     margin: 0;
     font-size: 25px;
     text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: rgba(0, 0, 0, .1);
 }
 
 .basics {
@@ -370,18 +396,6 @@ button:hover {
     margin-top: 1rem;
 }
 
-
-
-.feature {
-    opacity: .8;
-    color: #484848;
-}
-
-.feature:hover {
-    opacity: 1;
-    color: black;
-}
-
 .thanks {
     padding: 2rem;
     text-align: center;
@@ -403,18 +417,21 @@ button:hover {
 }
 
 .bottom-logo {
-    float: none;
-    width: 20%;
+    padding: 0 40%;
+}
+
+label {
+    color: rgba(0, 0, 0, .6);
+}
+
+.inputbox {
+    border: none;
+    border-bottom: solid 1pt grey;
 }
 
 
 @media only screen and (min-width: 25em) {
 
-.nav {
-    margin-right: 5.5rem;
-    margin-left: 5.5rem;
-}
-    
 
 }
 
@@ -422,20 +439,32 @@ button:hover {
 
 @media only screen and (min-width: 38em) {
     
+.nav {
+    display: none;
+}      
+    
+.feature {
+    opacity: .8;
+    color: #484848;
+}
+
+.feature:hover {
+    opacity: 1;
+    color: black;
+}    
+    
+    
 .copyright {
+    margin: 0;
     float: right;
-    padding-top: 5rem;
     text-align: right;
     padding-right: 2rem;
+    padding-top: 5.5rem;
 }
     
 footer {
     height: 15rem;
-}
-
-.nav li {
-    display: none;
-}    
+}  
     
 header {
     height: 30rem;
@@ -460,45 +489,26 @@ h1 {
     font-size: 30px;
 
 }
- 
+
+    
 .bottom-logo {
-    float: left;
-    width: 20%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1rem;
-    margin-bottom: 2rem;
-    background-color: transparent;
+    padding: 0;
+    padding-left: 1rem;
+    position: relative;
 }
     
-.nav-m {
-    color: white;
-    list-style: none;
-    text-transform: uppercase;
-    text-align: right;
-    padding-right: 2.5rem;
-    padding-top: 3.2rem;
-}
-
-.nav-m a {
-    color: white;
-}
-
-.nav-m li {
-    display: inline;
-}     
+  
     
-.nav-m a:hover {
-    color: black;
-    opacity: .5;
-    font-weight: bold;
-}
+    
+    
+    
     
     
 }
     
 @media only screen and (min-width: 50em) {
-
+  
+    
 .nav-m {
     padding-top: 5rem;
 }
