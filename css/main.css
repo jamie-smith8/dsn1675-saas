@@ -26,6 +26,10 @@ body {
 }
 
 
+.intro {
+    padding-bottom: 3rem;
+}
+
 .intro p {  
     margin-bottom: 1%;
 }
@@ -126,7 +130,7 @@ img {
 
 .copyright {
     padding-top: 2rem;
-    color: grey;
+    color: rgba(100, 100, 100, 1);
     text-align: center;
     margin: 0;
 }
@@ -155,7 +159,7 @@ footer {
 
 .buttbutton {
     color: white;
-    background-color: black; 
+    background-color: rgba(250, 0, 0, .5);
     margin: 0 4rem;
     border: none;
     font-weight: medium;
@@ -167,7 +171,7 @@ footer {
 }
 
 .buttbutton:hover {
-    color: black;
+    color: rgba(250, 0, 0, .5);
     background-color: white;
     font-weight: bold;
 }
@@ -233,10 +237,6 @@ textarea {
 
 .footnav a:visited:hover {
     opacity: .5;
-}
-
-.nav-m li{
-    display: none;
 }
 
 .testemony {
@@ -429,6 +429,31 @@ label {
     border-bottom: solid 1pt grey;
 }
 
+.unsplash {
+    color: rgba(100, 100, 100, 1);
+}
+
+.unsplash:visited {
+    opacity: .5;
+}
+
+.unsplash:hover {
+    opacity: .5;
+}
+
+.nav-m a {
+    color: white;
+}
+
+.nav-m li {
+    display: none;
+}     
+    
+.nav-m a:hover {
+    color: black;
+    opacity: .5;
+    font-weight: bold;
+}  
 
 @media only screen and (min-width: 25em) {
 
@@ -438,6 +463,10 @@ label {
 
 
 @media only screen and (min-width: 38em) {
+    
+ .nav-m li {
+    display: inline;
+}      
     
 .nav {
     display: none;
@@ -498,10 +527,19 @@ h1 {
 }
     
   
+.buttbutton {
+    display: none;
+}
     
-    
-    
-    
+ .nav-m {
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 2.5rem;
+    padding-top: 3.2rem;
+}
+     
     
     
 }
@@ -518,3 +556,4 @@ h1 {
 }
 
 }
+    
