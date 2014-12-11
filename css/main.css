@@ -176,10 +176,15 @@ footer {
     font-weight: bold;
 }
 
-h3 {
+.price-title {
+    color: rgba(0, 0, 0, .6);
     text-transform: uppercase;
     margin: 0;
     padding: .5em 0;
+}
+
+.price-title:hover {
+    color: rgba(250, 0, 0, .5);
 }
 
 .info {
@@ -268,11 +273,6 @@ textarea {
 
 .price {
     padding: 0 1;
-    background-color: white;
-}
-
-.price-grid {
-    background-color: black;
 }
 
 
@@ -544,7 +544,7 @@ h1 {
     
 }
     
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 60em) {
   
     
 .nav-m {
