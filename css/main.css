@@ -314,10 +314,19 @@ button {
     margin-top: 0.5em;
     border: none;
     background-color: rgba(250, 0, 0, .5);
-
+}
+    
+.submit {
+    color: rgba(250, 250, 250, 1);
 }
 
 button:hover {
+    background-color: white;
+    color: rgba(250, 0, 0, .5);
+    font-weight: bold;
+}
+
+.submit:hover {
     background-color: white;
     color: rgba(250, 0, 0, .5);
     font-weight: bold;
